@@ -31,7 +31,7 @@ import static com.burea.markdowneditor.util.FileDTOToJsonObjectConverter.jsonObj
 @Slf4j
 public class FileServiceImpl implements FileService {
     private static FileWriter file;
-    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd@HH:mm:ss");
 
     @Override
     public void saveFile(FileDTO request) {
@@ -41,7 +41,7 @@ public class FileServiceImpl implements FileService {
             if (request.getId() == null) {
                 request.setId(UUID.randomUUID().toString());
             }
-            file = new FileWriter(String.format("files/%s;%s;%s.json", request.getId(), request.getName(), format.format(request.getDate())));
+            file = new FileWriter(String.format("files/%s;%s;%s.json", request.getId(), request.getName(), format.parse(format.format(request.getDate())).getTime()));
             file.write(jsonObjectFileDTO(request).toString());
             log.info("[Service] Se ha creado con éxito el archivo");
         } catch (Exception e) {
@@ -75,7 +75,7 @@ public class FileServiceImpl implements FileService {
                 files.add(FileDTO.builder()
                         .id(name[0])
                         .name(name[1])
-                        .date(format.parse(name[2].replace(".json", "")))
+                        .date(new Date(Long.parseLong(name[2].replace(".json", ""))))
                         .build());
             }
             return files;
