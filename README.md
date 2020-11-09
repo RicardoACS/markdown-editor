@@ -9,8 +9,11 @@ Markdown Editor ofrece una experiencia como lector y escritor, ya que se elimina
 
 
 ## PreRequisitos
-1. Tener instalado [Angular CLI v10](https://cli.angular.io/) y [NodeJs v14.15.0](https://nodejs.org/es/download/) 
-2. Tener instalado [mvn](https://jdk.java.net/archive/)
+  #### Desarrollador
+   1. Tener instalado [Angular CLI v10](https://cli.angular.io/) y [NodeJs v14.15.0](https://nodejs.org/es/download/)
+   2. IDE para código Java y Angular
+  #### Despligue
+   1. Tener instalado [mvn](https://jdk.java.net/archive/)
 
 ## Despligue
 
