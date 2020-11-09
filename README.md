@@ -3,12 +3,12 @@
 Markdown Editor ofrece una experiencia como lector y escritor, ya que se elimina la vista previa, la transformación del texto y demás distracciones. En esta aplicación se ofrece una función de vista previa en tiempo real de todo el contenido.
 
 ### Contenido
-* [Pre Requisitos](##Pre Requisitos)
+* [PreRequisitos](##PreRequisitos)
 * [Despligue](##Despligue)
 * [Demo](##Demo)
 
 
-## Pre Requisitos
+## PreRequisitos
 1. Tener instalado [Angular CLI v10](https://cli.angular.io/) y [NodeJs v14.15.0](https://nodejs.org/es/download/) 
 2. Tener instalado [mvn](https://jdk.java.net/archive/)
 
