@@ -30,6 +30,14 @@ Al hacer el lanzamiento de la aplicación, hay que ingresar a la siguiente URL p
 http://localhost:8080/
 ```
 
+### Dev
+```
+cd /[carpeta del proyecto donde se encuentra el angular]
+y 
+npm install
+
+
+
 ## Demo
 [Video](https://youtu.be/YRbrjLZvERQ)
 
