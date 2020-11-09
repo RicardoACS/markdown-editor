@@ -35,7 +35,7 @@ http://localhost:8080/
 cd /[carpeta del proyecto donde se encuentra el angular]
 y 
 npm install
-
+```
 
 
 ## Demo
