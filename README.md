@@ -6,6 +6,7 @@ Markdown Editor ofrece una experiencia como lector y escritor, ya que se elimina
 * [PreRequisitos](##PreRequisitos)
 * [Despligue](##Despligue)
 * [Demo](##Demo)
+* [Link de interés](##Link de interés)
 
 
 ## PreRequisitos
@@ -30,4 +31,8 @@ http://localhost:8080/
 ```
 
 ## Demo
-[Video]()
+[Video](https://youtu.be/YRbrjLZvERQ)
+
+## Link de interés
+* [Sintax](https://jfcere.github.io/ngx-markdown/cheat-sheet)
+
